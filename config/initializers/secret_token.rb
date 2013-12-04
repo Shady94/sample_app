@@ -4,7 +4,7 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-#SampleApp::Application.config.secret_token = '1c534bbc78a2e5af2a64d987c595386f57f980ac986956c6d6bab2341670dce810bbcbf5c391c76af3500d07a6a9f914b96457dccc94f7f160787f5c65245734'
+SampleApp::Application.config.secret_token = '1c534bbc78a2e5af2a64d987c595386f57f980ac986956c6d6bab2341670dce810bbcbf5c391c76af3500d07a6a9f914b96457dccc94f7f160787f5c65245734'
 require 'securerandom'
 
 def secure_token
