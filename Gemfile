@@ -37,3 +37,5 @@ gem 'bootstrap-sass', '2.3.2.0'
 #gem 'bcrypt-ruby', '3.1.2'
 gem 'bcrypt-ruby', '3.0.0'
 gem "strong_parameters"
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
